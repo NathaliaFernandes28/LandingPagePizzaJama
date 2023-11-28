@@ -1,4 +1,4 @@
-# LandingPagePizzaJama
+# Landing Page PizzaJama
 
 ![Landing Page PizzaJama](https://github.com/NathaliaFernandes28/LandingPagePizzaJama/assets/88513545/e1f1a96c-e7f9-4b9c-a269-dc510e9239b9)
 
