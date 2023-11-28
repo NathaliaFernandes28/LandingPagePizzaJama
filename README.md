@@ -12,6 +12,7 @@ Responsividade para todos os dispositivos;
 
 Menu Hamburguer responsivo feito com Javascript;
 
+Você pode acessá-lo por este <a href="https://landing-page-pizza-jama.vercel.app/#introduction">link</a>
 <hr>
 
 🚀 TECNOLOGIAS
