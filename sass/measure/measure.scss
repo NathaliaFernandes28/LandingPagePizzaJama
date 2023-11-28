@@ -1,0 +1,1896 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    .pizzaJama {
+      display: flex;
+    }
+    .IlustrationPizza {
+      width: 3em;
+      height: 3em;
+      margin-left: 0.4em;
+      margin-top: 0.4em;
+    }
+    .subtitleJama {
+      margin-top: 2.7em;
+      font-size: 0.8em;
+    }
+    .closebtn {
+      border: none;
+    }
+    .overlay {
+      width: 0%;
+      max-height: 70%;
+      z-index: 1;
+      position: fixed;
+      overflow-x: hidden;
+      transition: all 0.5s;
+      left: 0;
+      top: 0;
+    }
+    .overlay-content {
+      padding-top: 0.7em;
+      padding-left: 2em;
+      font-size: 0.8em;
+    }
+
+    .iconesSociais {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      padding-left: 2em;
+    }
+    nav {
+      li {
+        list-style: none;
+      }
+      a {
+        list-style: none;
+        text-decoration: none;
+      }
+    }
+    #openHamburguer {
+      padding-right: 0.5em;
+      padding-top: 0.5em;
+      font-size: 1.7em;
+    }
+  }
+  main {
+    .introduction {
+      padding-top: 1em;
+      max-width: 100%;
+      max-height: auto;
+      background-image: url(./../../image/fundopizza.jpg);
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 5em;
+      .titleIntroduction {
+        padding-top: 3em;
+        font-size: 1.5em;
+      }
+      .subtitleIntroduction {
+        padding-top: 2em;
+        font-size: 1em;
+      }
+      .btnIntroductionOne {
+        display: block;
+        margin-top: 4em;
+        padding: 1.2em;
+        border-radius: 1em;
+        margin: 3em auto;
+        font-size: 0.7em;
+      }
+      .btnIntroductionTwo {
+        display: block;
+        padding: 1.2em;
+        border-radius: 1em;
+        margin: 3em auto;
+        font-size: 0.7em;
+      }
+    }
+    .aboultUs {
+      width: 100%;
+      .titleAboultUs {
+        text-align: center;
+        padding-top: 1em;
+        font-size: 2em;
+      }
+      .subtitleAboultUs {
+        text-align: center;
+        margin: 0 2.5em 0 2.5em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-size: 0.8em;
+      }
+      .kitchen {
+        max-width: 100%;
+        height: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 2em;
+      }
+    }
+    .menu {
+      padding-bottom: 5em;
+      padding-left: 0.5em;
+      .titleMenu {
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        font-size: 2em;
+      }
+      .ChickenPizza {
+        margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        .chickenImage {
+          max-width: 70%;
+          height: auto;
+          padding: 1em 0.5em 1em 0.5em;
+          margin: 0 2em 0 3em;
+        }
+        .subtitleChicken {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceCkicken {
+          max-width: 70%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 0.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnChicken {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .pepperoniPizza {
+        margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        .pepperoniImage {
+          max-width: 70%;
+          height: auto;
+          padding: 1em 0.5em 1em 0.5em;
+          margin: 0 2em 0 3em;
+        }
+        .subtitlePepperoni {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePricePepperoni {
+          max-width: 70%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 0.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnPepperoni {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .portuguesePizza {
+        margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        .portugueseImage {
+          max-width: 70%;
+          height: auto;
+          padding: 1em 0.5em 1em 0.5em;
+          margin: 0 2em 0 3em;
+        }
+        .subtitlePortuguese {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePricePortuguese {
+          max-width: 70%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 0.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnPortuguese {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .strognofPizza {
+        margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        .strognofImage {
+          max-width: 70%;
+          height: auto;
+          padding: 1em 0.5em 1em 0.5em;
+          margin: 0 2em 0 3em;
+        }
+        .subtitleStrognof {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 1.8em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceStrognof {
+          max-width: 70%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 0.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnStrognof {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .sensationalPizza {
+        margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        .sensationalImage {
+          max-width: 70%;
+          height: auto;
+          padding: 1em 0.5em 1em 0.5em;
+          margin: 0 2em 0 3em;
+        }
+        .subtitleSensational {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 1.8em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceSensational {
+          max-width: 70%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 0.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnSensational {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .chocolatePizza {
+        margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        .chocolateImage {
+          max-width: 70%;
+          height: auto;
+          padding: 1em 1.8em 0 1.8em;
+          margin: 0 2em 0 3em;
+        }
+        .subtitleChocolate {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 1.8em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceChocolate {
+          max-width: 70%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 0.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnChocolate {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .ConfettiPizza {
+        margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        .confettiImage {
+          max-width: 70%;
+          height: auto;
+          padding: 1em 0.5em 0 0.5em;
+          margin: 0 2em 0 3em;
+        }
+        .subtitleConfetti {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 1.8em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceConfetti {
+          max-width: 70%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 0.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnConfetti {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .prestigePizza {
+        margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        .prestigeImage {
+          max-width: 70%;
+          height: auto;
+          padding: 1em 0.5em 0 0.5em;
+          margin: 0 2em 0 3em;
+        }
+        .subtitlePrestige {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 1.8em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePricePrestige {
+          max-width: 70%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 0.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnPrestige {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+    }
+  }
+  footer {
+    .contact {
+      padding-top: 2em;
+      text-align: center;
+      .instagram {
+        margin-top: 3em;
+        margin-bottom: 2em;
+        .subtitleInstagram {
+          margin-top: 0.5em;
+        }
+      }
+      .cellFone {
+        margin-top: 3em;
+        margin-bottom: 2em;
+        .subtitleCellFone {
+          margin-top: 0.5em;
+        }
+      }
+      .gitHub {
+        margin-top: 3em;
+        padding-bottom: 5em;
+        .subtitleGithub {
+          margin-top: 0.5em;
+        }
+        .credit {
+          margin-top: 5em;
+          margin-bottom: 5em;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    .pizzaJama {
+      display: flex;
+    }
+    .IlustrationPizza {
+      width: 4em;
+      height: 4em;
+      margin-left: 0.4em;
+      margin-top: 0.4em;
+    }
+    .subtitleJama {
+      margin-top: 2.3em;
+      font-size: 1.1em;
+    }
+    .closebtn {
+      border: none;
+    }
+    .overlay {
+      width: 0%;
+      max-height: 75%;
+      z-index: 1;
+      position: fixed;
+      overflow-x: hidden;
+      transition: all 0.5s;
+      left: 0;
+      top: 0;
+    }
+    #menuHamburguer {
+      padding-bottom: 1em;
+    }
+    .overlay-content {
+      padding-top: 0.5em;
+      padding-left: 2em;
+      font-size: 0.9em;
+    }
+
+    .iconesSociais {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      padding-bottom: 1em;
+      padding-left: 2em;
+    }
+    nav {
+      li {
+        list-style: none;
+      }
+      a {
+        list-style: none;
+        text-decoration: none;
+      }
+    }
+    #openHamburguer {
+      padding-right: 0.5em;
+      padding-top: 0.4em;
+      font-size: 2.3em;
+    }
+  }
+  main {
+    .introduction {
+      padding-top: 1em;
+      max-width: 100%;
+      max-height: auto;
+      background-image: url(./../../image/fundopizza.jpg);
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 5em;
+      .titleIntroduction {
+        padding-top: 3em;
+        font-size: 2.2em;
+      }
+      .subtitleIntroduction {
+        padding-top: 1em;
+        font-size: 1.5em;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+      }
+      .btnIntroductionOne {
+        margin-top: 4em;
+        padding: 1em;
+        border-radius: 1em;
+        margin-left: 1em;
+        font-size: 1em;
+      }
+      .btnIntroductionTwo {
+        margin-top: 4em;
+        padding: 1em;
+        border-radius: 1em;
+        font-size: 1em;
+      }
+    }
+    .aboultUs {
+      width: 100%;
+      .titleAboultUs {
+        text-align: center;
+        padding-top: 1em;
+        font-size: 2.5em;
+      }
+      .subtitleAboultUs {
+        text-align: center;
+        margin: 0 2.5em 0 2.5em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-size: 1em;
+      }
+      .kitchen {
+        max-width: 100%;
+        height: auto;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+      }
+    }
+    .menu {
+      padding-bottom: 5em;
+      padding-left: 3em;
+      .titleMenu {
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        font-size: 2.3em;
+      }
+      .ChickenPizza {
+        margin-top: 2em;
+        margin-left: 8%;
+        margin-right: 2%;
+        .chickenImage {
+          max-width: 60%;
+          height: auto;
+          margin: 0 2em 0 3.8em;
+        }
+        .subtitleChicken {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceCkicken {
+          max-width: 60%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 1em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnChicken {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .pepperoniPizza {
+        margin-top: 4em;
+        margin-left: 8%;
+        margin-right: 2%;
+        .pepperoniImage {
+          max-width: 60%;
+          height: auto;
+          margin: 0 2.5em 0 3.8em;
+          padding-left: 3em;
+          padding-right: 3em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+        }
+        .subtitlePepperoni {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePricePepperoni {
+          max-width: 60%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          margin: 0 2em 0 3.8em;
+          font-size: 1em;
+        }
+        span {
+          margin-left: 4em;
+          font-size: 1em;
+        }
+        .btnPepperoni {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .portuguesePizza {
+        margin-top: 4em;
+        margin-left: 8%;
+        margin-right: 2%;
+        .portugueseImage {
+          max-width: 60%;
+          height: auto;
+          padding: 0 2em 0 2em;
+          margin: 0 2em 0 3.8em;
+        }
+        .subtitlePortuguese {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePricePortuguese {
+          max-width: 60%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 1em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnPortuguese {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .strognofPizza {
+        margin-top: 4em;
+        margin-left: 8%;
+        margin-right: 2%;
+        .strognofImage {
+          max-width: 60%;
+          height: auto;
+          margin: 0 2em 0 3.8em;
+        }
+        .subtitleStrognof {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceStrognof {
+          max-width: 60%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 1em;
+        }
+        span {
+          margin-left: 4em;
+          font-size: 1em;
+        }
+        .btnStrognof {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .sensationalPizza {
+        margin-top: 4em;
+        margin-left: 8%;
+        margin-right: 2%;
+        .sensationalImage {
+          max-width: 60%;
+          height: auto;
+          margin: 0 2em 0 3.8em;
+        }
+        .subtitleSensational {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceSensational {
+          max-width: 60%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 1em;
+        }
+        span {
+          margin-left: 4em;
+          font-size: 1em;
+        }
+        .btnSensational {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .chocolatePizza {
+        margin-top: 4em;
+        margin-left: 8%;
+        margin-right: 2%;
+        .chocolateImage {
+          max-width: 60%;
+          height: auto;
+          padding-top: 1em;
+          padding-left: 4em;
+          padding-right: 4em;
+          margin: 0 2em 0 3.8em;
+        }
+        .subtitleChocolate {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceChocolate {
+          max-width: 60%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          margin: 0 2em 0 3.8em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnChocolate {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .ConfettiPizza {
+        margin-top: 4em;
+        margin-left: 8%;
+        margin-right: 2%;
+        .confettiImage {
+          max-width: 60%;
+          height: auto;
+          margin: 0 2em 0 3.8em;
+        }
+        .subtitleConfetti {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePriceConfetti {
+          max-width: 60%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 1em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnConfetti {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+      .prestigePizza {
+        margin-top: 4em;
+        margin-left: 8%;
+        margin-right: 2%;
+        .prestigeImage {
+          max-width: 60%;
+          height: auto;
+          padding-top: 2em;
+          margin: 0 2em 0 3.8em;
+        }
+        .subtitlePrestige {
+          max-width: 70%;
+          height: auto;
+          margin: 0 1.8em 0 2em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          font-size: 1.8em;
+        }
+        .piecePricePrestige {
+          max-width: 60%;
+          height: auto;
+          margin-left: 3.8em;
+          padding-bottom: 2em;
+          display: block;
+          font-size: 1em;
+        }
+        span {
+          margin-left: 4em;
+        }
+        .btnPrestige {
+          padding: 0.5em 1em 0.5em 1em;
+          cursor: pointer;
+          margin-top: 2em;
+          text-align: center;
+          border-radius: 0.3em;
+        }
+      }
+    }
+  }
+  footer {
+    .contact {
+      padding-top: 2em;
+      text-align: center;
+      .instagram {
+        margin-top: 3em;
+        margin-bottom: 2em;
+        .subtitleInstagram {
+          margin-top: 0.5em;
+        }
+      }
+      .cellFone {
+        margin-top: 3em;
+        margin-bottom: 2em;
+        .subtitleCellFone {
+          margin-top: 0.5em;
+        }
+      }
+      .gitHub {
+        margin-top: 3em;
+        padding-bottom: 5em;
+        .subtitleGithub {
+          margin-top: 0.5em;
+        }
+        .credit {
+          margin-top: 5em;
+          margin-bottom: 5em;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    .pizzaJama {
+      display: flex;
+    }
+    .IlustrationPizza {
+      width: 4em;
+      height: 4em;
+      margin-left: 0.4em;
+      margin-top: 0.4em;
+    }
+    .subtitleJama {
+      margin-top: 2.7em;
+    }
+    .closebtn {
+      border: none;
+    }
+    .overlay {
+      width: 0%;
+      max-height: 77%;
+      z-index: 1;
+      position: fixed;
+      overflow-x: hidden;
+      transition: all 0.5s;
+      left: 0;
+      top: 0;
+    }
+    #menuHamburguer {
+      padding-bottom: 0.5em;
+    }
+    .overlay-content {
+      padding-left: 2em;
+    }
+
+    .iconesSociais {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      padding-bottom: 1em;
+      padding-left: 2em;
+    }
+    nav {
+      li {
+        list-style: none;
+      }
+      a {
+        list-style: none;
+        text-decoration: none;
+      }
+    }
+    #openHamburguer {
+      padding-top: 0.4em;
+      padding-right: 0.5em;
+      font-size: 2.3em;
+    }
+  }
+  main {
+    .introduction {
+      padding-top: 1em;
+      max-width: 100%;
+      max-height: auto;
+      background-image: url(./../../image/fundopizza.jpg);
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 5em;
+      .titleIntroduction {
+        padding-top: 3em;
+        font-size: 3em;
+      }
+      .subtitleIntroduction {
+        padding-top: 1em;
+        font-size: 1.5em;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+      }
+      .btnIntroductionOne {
+        margin-top: 4em;
+        padding: 1em;
+        border-radius: 1em;
+        margin-left: 1em;
+        font-size: 1em;
+      }
+      .btnIntroductionTwo {
+        margin-top: 4em;
+        padding: 1em;
+        border-radius: 1em;
+        font-size: 1em;
+      }
+    }
+    .aboultUs {
+      width: 100%;
+      display: flex;
+      .titleAboultUs {
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        font-size: 2.5em;
+      }
+      .subtitleAboultUs {
+        text-align: center;
+        margin: 0 2.5em 0 2.5em;
+        padding-bottom: 2em;
+        font-size: 1em;
+      }
+      .kitchen {
+        max-width: 50%;
+        height: auto;
+        padding-top: 5em;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 2em;
+      }
+    }
+    .menu {
+      padding-bottom: 5em;
+      .titleMenu {
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        font-size: 2.5em;
+      }
+      .menuOne {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        .ChickenPizza {
+          margin-top: 2em;
+          margin-left: 5%;
+          margin-right: 5%;
+          .chickenImage {
+            max-width: 70%;
+            height: auto;
+            padding: 1em 0.5em 1em 0.5em;
+            margin: 0 2em 0 3em;
+          }
+          .subtitleChicken {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceCkicken {
+            max-width: 70%;
+            height: auto;
+            margin-left: 3.3em;
+            padding-bottom: 2em;
+            display: block;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnChicken {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .pepperoniPizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .pepperoniImage {
+            max-width: 70%;
+            height: auto;
+            margin: 2em 2em 0 3.4em;
+            padding: 0.7em 2.5em 0.7em 2.5em;
+          }
+          .subtitlePepperoni {
+            max-width: 70%;
+            height: auto;
+            margin: 0 2.3em 0 2.3em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePricePepperoni {
+            max-width: 70%;
+            height: auto;
+            margin-left: 3em;
+            padding-top: 1em;
+            padding-bottom: 2.8em;
+            display: block;
+            margin: 0 2em 0 3.8em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnPepperoni {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .portuguesePizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .portugueseImage {
+            max-width: 70%;
+            height: auto;
+            padding: 0 1em 0.7em 0.7em;
+            margin: 3em 2em 0 3em;
+          }
+          .subtitlePortuguese {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePricePortuguese {
+            max-width: 70%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 2em;
+            display: block;
+            margin: 0 2em 0 3.3em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnPortuguese {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .strognofPizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .strognofImage {
+            max-width: 70%;
+            height: auto;
+            padding: 1em 0.5em 0.7em 0.5em;
+            margin: 3em 2em 0 3.5em;
+          }
+          .subtitleStrognof {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceStrognof {
+            max-width: 70%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 2em;
+            display: block;
+            margin: 0 2em 0 3.8em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnStrognof {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+      }
+      .menuTwo {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        .sensationalPizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .sensationalImage {
+            max-width: 70%;
+            height: auto;
+            padding: 1em 0.5em 1em 0.5em;
+            margin: 3em 1em 0 3em;
+          }
+          .subtitleSensational {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceSensational {
+            max-width: 70%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 2em;
+            display: block;
+            margin: 0 2em 0 3.4em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnSensational {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .chocolatePizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .chocolateImage {
+            max-width: 70%;
+            height: auto;
+            padding: 1em 3em 0 3em;
+            margin: 3em 1em 0 3.4em;
+          }
+          .subtitleChocolate {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 2em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceChocolate {
+            max-width: 70%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 4.1em;
+            display: block;
+            margin: 0 2em 0 3.8em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnChocolate {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .ConfettiPizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .confettiImage {
+            max-width: 70%;
+            height: auto;
+            padding: 0.5em 0.5em 0 0.5em;
+            margin: 3em 1em 0 3em;
+          }
+          .subtitleConfetti {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceConfetti {
+            max-width: 70%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 1.5em;
+            display: block;
+            margin: 0 2em 0 3.4em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnConfetti {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .prestigePizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .prestigeImage {
+            max-width: 70%;
+            height: auto;
+            padding: 0.5em 0.5em 0 0.5em;
+            margin: 3em 1em 0 3.4em;
+          }
+          .subtitlePrestige {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePricePrestige {
+            max-width: 70%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 1em;
+            display: block;
+            margin: 0 2em 0 3.8em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnPrestige {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .contact {
+      padding-top: 2em;
+      text-align: center;
+      .contactOne {
+        display: flex;
+        justify-content: center;
+        gap: 5.5em;
+        padding-bottom: 7em;
+        cursor: pointer;
+      }
+      .instagram {
+        margin-top: 4em;
+        margin-bottom: 2em;
+        .subtitleInstagram {
+          margin-top: 0.5em;
+        }
+      }
+      .cellFone {
+        margin-top: 4em;
+        margin-bottom: 2em;
+        padding-left: 2em;
+        .subtitleCellFone {
+          margin-top: 0.5em;
+        }
+      }
+      .gitHub {
+        margin-top: 4em;
+        padding-bottom: 5em;
+        padding-left: 2em;
+        .subtitleGithub {
+          margin-top: 0.5em;
+        }
+        .credit {
+          margin-top: 10em;
+          margin-bottom: 10em;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    .pizzaJama {
+      display: flex;
+    }
+    .IlustrationPizza {
+      width: 4em;
+      height: 4em;
+      margin-left: 0.4em;
+      margin-top: 0.4em;
+    }
+    .subtitleJama {
+      margin-top: 2.7em;
+    }
+    .closebtn {
+      border: none;
+      cursor: pointer;
+    }
+    .overlay {
+      width: 0%;
+      max-height: 80%;
+      z-index: 1;
+      position: fixed;
+      overflow-x: hidden;
+      transition: all 0.5s;
+      left: 0;
+      top: 0;
+    }
+    #menuHamburguer {
+      padding-bottom: 1em;
+    }
+    .overlay-content {
+      padding-left: 2em;
+    }
+
+    .iconesSociais {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      padding-bottom: 1em;
+      padding-left: 2em;
+      cursor: pointer;
+    }
+    nav {
+      li {
+        list-style: none;
+      }
+      a {
+        list-style: none;
+        text-decoration: none;
+      }
+    }
+    #openHamburguer {
+      padding-top: 0.4em;
+      padding-right: 0.5em;
+      font-size: 2.3em;
+      cursor: pointer;
+    }
+  }
+  main {
+    .introduction {
+      padding-top: 1em;
+      max-width: 100%;
+      max-height: auto;
+      background-image: url(./../../image/fundopizza.jpg);
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 5em;
+      .titleIntroduction {
+        padding-top: 3em;
+        font-size: 3em;
+      }
+      .subtitleIntroduction {
+        padding-top: 1em;
+        font-size: 1.5em;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+      }
+      .btnIntroductionOne {
+        margin-top: 4em;
+        padding: 1em;
+        border-radius: 1em;
+        margin-left: 1em;
+        font-size: 1em;
+        cursor: pointer;
+      }
+      .btnIntroductionTwo {
+        margin-top: 4em;
+        padding: 1em;
+        border-radius: 1em;
+        font-size: 1em;
+        cursor: pointer;
+      }
+    }
+    .aboultUs {
+      width: 100%;
+      display: flex;
+      .titleAboultUs {
+        padding-top: 2.9em;
+        padding-bottom: 0.5em;
+        font-size: 2.5em;
+      }
+      .subtitleAboultUs {
+        text-align: center;
+        margin: 0 6em 0 6em;
+        padding-bottom: 2em;
+        font-size: 1em;
+      }
+      .kitchen {
+        max-width: 50%;
+        height: auto;
+        padding-top: 6em;
+        padding-right: 4em;
+        padding-bottom: 8em;
+      }
+    }
+    .menu {
+      padding-bottom: 5em;
+      .titleMenu {
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        font-size: 2.5em;
+      }
+      .menuOne {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        margin-left: 5em;
+
+        .ChickenPizza {
+          margin-top: 2em;
+          margin-left: 5%;
+          margin-right: 5%;
+          .chickenImage {
+            max-width: 65%;
+            height: auto;
+            padding: 1em 0.5em 1em 0.5em;
+            margin: 0 2em 0 3em;
+          }
+          .subtitleChicken {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceCkicken {
+            max-width: 65%;
+            height: auto;
+            margin-left: 3.3em;
+            padding-bottom: 2em;
+            display: block;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnChicken {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .pepperoniPizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .pepperoniImage {
+            max-width: 65%;
+            height: auto;
+            margin: 2em 2em 0 3.4em;
+            padding: 0.7em 2.5em 0.7em 2.5em;
+          }
+          .subtitlePepperoni {
+            max-width: 70%;
+            height: auto;
+            margin: 0 2.3em 0 2.3em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePricePepperoni {
+            max-width: 65%;
+            height: auto;
+            margin-left: 3em;
+            padding-top: 1em;
+            padding-bottom: 2.8em;
+            display: block;
+            margin: 0 2em 0 3.8em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnPepperoni {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .portuguesePizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .portugueseImage {
+            max-width: 65%;
+            height: auto;
+            padding: 0 1em 0.7em 0.7em;
+            margin: 3em 2em 0 3em;
+          }
+          .subtitlePortuguese {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePricePortuguese {
+            max-width: 65%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 2em;
+            display: block;
+            margin: 0 2em 0 3.3em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnPortuguese {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .strognofPizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .strognofImage {
+            max-width: 65%;
+            height: auto;
+            padding: 1em 0.5em 0.7em 0.5em;
+            margin: 3em 2em 0 3.5em;
+          }
+          .subtitleStrognof {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceStrognof {
+            max-width: 65%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 2em;
+            display: block;
+            margin: 0 2em 0 3.8em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnStrognof {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+      }
+      .menuTwo {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        margin-left: 5em;
+        .sensationalPizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .sensationalImage {
+            max-width: 65%;
+            height: auto;
+            padding: 1em 0.5em 1em 0.5em;
+            margin: 3em 1em 0 3em;
+          }
+          .subtitleSensational {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceSensational {
+            max-width: 65%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 2em;
+            display: block;
+            margin: 0 2em 0 3.4em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnSensational {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .chocolatePizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .chocolateImage {
+            max-width: 65%;
+            height: auto;
+            padding: 1em 3em 0 3em;
+            margin: 3em 1em 0 3.4em;
+          }
+          .subtitleChocolate {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 2em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceChocolate {
+            max-width: 65%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 4.1em;
+            display: block;
+            margin: 0 2em 0 3.8em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnChocolate {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .ConfettiPizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .confettiImage {
+            max-width: 65%;
+            height: auto;
+            padding: 0.5em 0.5em 0 0.5em;
+            margin: 3em 1em 0 3em;
+          }
+          .subtitleConfetti {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePriceConfetti {
+            max-width: 65%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 1.5em;
+            display: block;
+            margin: 0 2em 0 3.4em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnConfetti {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+        .prestigePizza {
+          margin-left: 5%;
+          margin-right: 5%;
+          .prestigeImage {
+            max-width: 65%;
+            height: auto;
+            padding: 0.5em 0.5em 0 0.5em;
+            margin: 3em 1em 0 3.4em;
+          }
+          .subtitlePrestige {
+            max-width: 70%;
+            height: auto;
+            margin: 0 1.8em 0 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+          }
+          .piecePricePrestige {
+            max-width: 65%;
+            height: auto;
+            margin-left: 3.8em;
+            padding-bottom: 1em;
+            display: block;
+            margin: 0 2em 0 3.8em;
+            font-size: 0.9em;
+          }
+          span {
+            margin-left: 4em;
+            font-size: 0.9em;
+          }
+          .btnPrestige {
+            padding: 0.5em 1em 0.5em 1em;
+            cursor: pointer;
+            margin-top: 2em;
+            text-align: center;
+            border-radius: 0.3em;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .contact {
+      padding-top: 5em;
+      text-align: center;
+      .contactOne {
+        display: flex;
+        justify-content: center;
+        gap: 5.5em;
+        padding-bottom: 7em;
+        cursor: pointer;
+      }
+      .instagram {
+        margin-top: 4em;
+        margin-bottom: 2em;
+        .subtitleInstagram {
+          margin-top: 0.5em;
+        }
+      }
+      .cellFone {
+        margin-top: 4em;
+        margin-bottom: 2em;
+        padding-left: 2em;
+        .subtitleCellFone {
+          margin-top: 0.5em;
+        }
+      }
+      .gitHub {
+        margin-top: 4em;
+        padding-bottom: 5em;
+        padding-left: 2em;
+        .subtitleGithub {
+          margin-top: 0.5em;
+        }
+        .credit {
+          margin-top: 10em;
+          margin-bottom: 10em;
+        }
+      }
+    }
+  }
+}

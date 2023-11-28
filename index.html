@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Informações e contato da Pizzaria Jama, localizada no Rio de Janeiro."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pizzaria Jama</title>
+  </head>
+  <body>
+    <header>
+      <div class="pizzaJama">
+        <img
+          class="IlustrationPizza"
+          src="./image/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png"
+          alt="Ilustração de uma pizza com um pedaço dela sendo cortado."
+        />
+        <p class="subtitleJama">PizzaJama</p>
+      </div>
+      <nav id="myNav" class="overlay">
+        <div id="menuHamburguer">
+            <ul class="overlay-content">
+              <button class="closebtn" onclick="closeNav()">&times;</button>
+              <li><a href="#introduction">HOME</a></li>
+              <li><a href="#aboultUs">SOBRE NÓS</a></li>
+              <li><a href="#menu">CARDÁPIO</a></li>
+              <li><a href="#contact">CONTATOS</a></li>
+            </ul>
+            <div class="iconesSociais">
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-cart-fill"></i>
+            </div>
+        </div>
+      </nav>
+      <i id="openHamburguer" class="bi bi-list" onclick="openNav()"></i>
+     
+    </header>
+    <main>
+      <section id="introduction" class="introduction">
+        <h1 class="titleIntroduction">Deixe seu dia mais saboroso</h1>
+        <p class="subtitleIntroduction">As pizzas mais recheadas da Região</p>
+        <div class="btn">
+          <button class="btnIntroductionOne">Reserve a Sua</button>
+          <button class="btnIntroductionTwo">Monte sua Pizza</button>
+        </div>
+      </section>
+      <section id="aboultUs" class="aboultUs">
+        <div>
+          <h2 class="titleAboultUs">Sobre Nós</h2>
+            <p class="subtitleAboultUs">Somos uma pizzaria que tem
+              Paixão pela autêntica arte de fazer pizza se une à qualidade dos ingredientes mais frescos, criando uma experiência gastronômica verdadeiramente única. Nossas pizzas são mais do que uma simples refeição, são uma celebração do sabor, da tradição e da excelência culinária.
+            </p>
+        </div>
+          <img
+            class="kitchen"
+            src="./image/cozinha.jpg"
+            alt="Foto de uma cozinha profissional, com os utencilios usados pendurado na parede."
+          />
+      </section>
+      <section id="menu" class="menu">
+        <h2 class="titleMenu">Cardápio</h2>
+        <div class="menuOne">
+          <div class="ChickenPizza">
+            <img class="chickenImage"
+              src="./image/frango-removebg-preview.png"
+              alt="Foto de uma pizza de frango que está no cardápio da pizzaria Jama"
+            />
+              <div class="piecePriceCkicken">
+                <p class="subtitleChicken">Frango</p>
+                <p class="pieceChicken">4 fatias<span>R$ 35,00</span></p>
+                <p class="pieceChicken">6 fatias<span>R$ 45,00</span></p>
+                <p class="pieceChicken">8 fatias<span>R$ 55,00</span></p>
+                <div> <button class="btnChicken">Pedido</button></div>
+              </div>
+          </div>
+          <div class="pepperoniPizza">
+            <img class="pepperoniImage"
+              src="./image/calabresa-removebg-preview.png"
+              alt="Foto de uma pizza de calabresa que está no cardápio da pizzaria Jama"
+            />
+              <div class="piecePricePepperoni">
+                <p class="subtitlePepperoni">Calabresa</p>
+                <p class="piecePepperoni">4 fatias <span>R$ 35,00</span></p>
+                <p class="piecePepperoni">6 fatias <span>R$ 45,00</span></p>
+                <p class="piecePepperoni">8 fatias <span>R$ 55,00</span></p>
+                <div><button class="btnPepperoni">Pedido</button></div>
+              </div>
+          </div>
+          <div class="portuguesePizza">
+            <img class="portugueseImage"
+              src="./image/portuguesa-removebg-preview.png"
+              alt="Foto de uma pizza portuguesa que está no cardápio da pizzaria Jama"
+            />
+              <div class="piecePricePortuguese">
+                <p class="subtitlePortuguese">Portuguesa</p>
+                <p class="piecePortuguese">4 fatias <span>R$ 35,00</span></p>
+                <p class="piecePortuguese">6 fatias <span>R$ 45,00</span></p>
+                <p class="piecePortuguese">8 fatias <span>R$ 55,00</span></p>
+                <div><button class="btnPortuguese">Pedido</button></div>
+              </div>
+          </div>
+          <div class="strognofPizza">
+            <img class="strognofImage"
+              src="./image/strogonoff-removebg-preview.png"
+              alt="Foto de uma pizza de strognof que está no cardápio da pizzaria Jama"
+            />
+              <div class="piecePriceStrognof">
+                <p class="subtitleStrognof">Strognof</p>
+                <p class="pieceStrognof">4 fatias <span>R$ 35,00</span></p>
+                <p class="pieceStrognof">6 fatias <span>R$ 45,00</span></p>
+                <p class="pieceStrognof">8 fatias <span>R$ 55,00</span></p>
+                <div><button class="btnStrognof">Pedido</button></div>
+              </div>
+          </div>
+        </div>
+        <div class="menuTwo">
+          <div class="sensationalPizza">
+            <img class="sensationalImage"
+              src="./image/sensacao-removebg-preview.png"
+              alt="Foto de uma pizza doce sensação que está no cardápio da pizzaria Jama"
+            />
+            <div class="piecePriceSensational">
+              <p class="subtitleSensational">Sensação</p>
+                <p class="pieceSensational">4 fatias <span>R$ 35,00</span></p>
+                <p class="pieceSensational">6 fatias <span>R$ 45,00</span></p>
+                <p class="pieceSensational">8 fatias <span>R$ 55,00</span></p>
+                <div><button class="btnSensational">Pedido</button></div>
+            </div>
+          </div>
+          <div class="chocolatePizza">
+            <img class="chocolateImage"
+              src="./image/chocolate-removebg-preview.png"
+              alt="Foto de uma pizza doce de chocolate que está no cardápio da pizzaria Jama"
+            />
+            <div class="piecePriceChocolate">
+              <p class="subtitleChocolate">Chocolate</p>
+              <p class="pieceChocolate">4 fatias <span>R$ 35,00</span></p>
+              <p class="pieceChocolate">6 fatias <span>R$ 45,00</span></p>
+              <p class="pieceChocolate">8 fatias <span>R$ 55,00</span></p>
+              <div><button class="btnChocolate">Pedido</button></div>
+            </div>
+          </div>
+          <div class="ConfettiPizza">
+            <img class="confettiImage"
+              src="./image/confete-removebg-preview.png"
+              alt="Foto de uma pizza doce confete que está no cardápio da pizzaria Jama"
+            />
+            <div class="piecePriceConfetti">
+                <p class="subtitleConfetti">Confete</p>
+                <p class="pieceConfetti">4 fatias <span>R$ 35,00</span></p>
+                <p class="pieceConfetti">6 fatias <span>R$ 45,00</span></p>
+                <p class="pieceConfetti">8 fatias <span>R$ 55,00</span></p>
+                <div><button class="btnConfetti">Pedido</button></div>
+            </div>
+          </div>
+          <div class="prestigePizza">
+            <img class="prestigeImage"
+              src="./image/prestigio-removebg-preview.png"
+              alt="Foto de uma pizza doce de prestigio que está no cardápio da pizzaria Jama"
+            />
+            <div class="piecePricePrestige">
+                <p class="subtitlePrestige">Prestigio</p>
+                <p class="piecePrestige">4 fatias <span>R$ 35,00</span></p>
+                <p class="piecePrestige">6 fatias <span>R$ 45,00</span></p>
+                <p class="piecePrestige">8 fatias <span>R$ 55,00</span></p>
+                <div><button class="btnPrestige">Pedido</button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="contact" class="contact">
+        <h2 class="titleContact">Contato</h2>
+        <div class="contactOne">
+          <div class="instagram">
+            <i class="bi bi-instagram"></i>
+            <p class="subtitleInstagram">@devprogramadora</p>
+          </div>
+          <div class="cellFone">
+            <i class="bi bi-telephone-fill"></i>
+            <p class="subtitleCellFone">(21) 970301218</p>
+          </div>
+          <div class="gitHub">
+            <i class="bi bi-github"></i>
+            <p class="subtitleGithub">NathaliaFernandes28</p>
+          </div>
+        </section>
+      <div class="credit">
+        <p>&copy; 2023 Feito por Nathalia Fernandes </p>
+      </div>
+    </footer>
+    <script src="./Js/index.js"></script>
+  </body>
+</html>

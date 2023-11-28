@@ -1,0 +1,2252 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap");
+header {
+  background-color: #1e1e1e;
+}
+header .subtitleJama {
+  color: #ffffff;
+}
+header .closebtn {
+  color: #ffc506;
+  background-color: rgba(30, 30, 30, 0);
+}
+header .overlay-content {
+  background-color: rgba(30, 30, 30, 0.8941176471);
+}
+header .overlay-content a {
+  color: #ffc506;
+}
+header .iconesSociais {
+  color: #ffffff;
+  background-color: rgba(30, 30, 30, 0.8941176471);
+}
+header #openHamburguer {
+  color: #ffffff;
+}
+
+main .introduction .titleIntroduction {
+  color: #ffc506;
+}
+main .introduction .subtitleIntroduction {
+  color: #ffffff;
+}
+main .introduction .btnIntroductionOne {
+  background-color: #ffc506;
+  border: none;
+}
+main .introduction .btnIntroductionOne:hover {
+  color: #ffc506;
+  background-color: #1e1e1e;
+}
+main .introduction .btnIntroductionTwo {
+  background-color: #ffc506;
+  border: none;
+}
+main .introduction .btnIntroductionTwo:hover {
+  color: #ffc506;
+  background-color: #1e1e1e;
+}
+main .aboultUs {
+  background-color: #1e1e1e;
+}
+main .aboultUs .titleAboultUs {
+  color: #ffffff;
+}
+main .aboultUs .subtitleAboultUs {
+  color: #ffffff;
+}
+main .menu {
+  background-color: #545454;
+}
+main .menu .titleMenu {
+  color: #d9d9d9;
+}
+main .menu .ChickenPizza .chickenImage {
+  background-color: #424242;
+}
+main .menu .ChickenPizza .subtitleChicken {
+  background-color: #d9d9d9;
+}
+main .menu .ChickenPizza .piecePriceCkicken {
+  background-color: #d9d9d9;
+}
+main .menu .ChickenPizza .btnChicken {
+  background-color: #ffc506;
+  border: none;
+}
+main .menu .ChickenPizza .btnChicken:hover {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+main .menu .pepperoniPizza .pepperoniImage {
+  background-color: #424242;
+}
+main .menu .pepperoniPizza .subtitlePepperoni {
+  background-color: #d9d9d9;
+}
+main .menu .pepperoniPizza .piecePricePepperoni {
+  background-color: #d9d9d9;
+}
+main .menu .pepperoniPizza .btnPepperoni {
+  background-color: #ffc506;
+  border: none;
+}
+main .menu .pepperoniPizza .btnPepperoni:hover {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+main .menu .portuguesePizza .portugueseImage {
+  background-color: #424242;
+}
+main .menu .portuguesePizza .subtitlePortuguese {
+  background-color: #d9d9d9;
+}
+main .menu .portuguesePizza .piecePricePortuguese {
+  background-color: #d9d9d9;
+}
+main .menu .portuguesePizza .btnPortuguese {
+  background-color: #ffc506;
+  border: none;
+}
+main .menu .portuguesePizza .btnPortuguese:hover {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+main .menu .strognofPizza .strognofImage {
+  background-color: #424242;
+}
+main .menu .strognofPizza .subtitleStrognof {
+  background-color: #d9d9d9;
+}
+main .menu .strognofPizza .piecePriceStrognof {
+  background-color: #d9d9d9;
+}
+main .menu .strognofPizza .btnStrognof {
+  background-color: #ffc506;
+  border: none;
+}
+main .menu .strognofPizza .btnStrognof:hover {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+main .menu .sensationalPizza .sensationalImage {
+  background-color: #424242;
+}
+main .menu .sensationalPizza .subtitleSensational {
+  background-color: #d9d9d9;
+}
+main .menu .sensationalPizza .piecePriceSensational {
+  background-color: #d9d9d9;
+}
+main .menu .sensationalPizza .btnSensational {
+  background-color: #ffc506;
+  border: none;
+}
+main .menu .sensationalPizza .btnSensational:hover {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+main .menu .chocolatePizza .chocolateImage {
+  background-color: #424242;
+}
+main .menu .chocolatePizza .subtitleChocolate {
+  background-color: #d9d9d9;
+}
+main .menu .chocolatePizza .piecePriceChocolate {
+  background-color: #d9d9d9;
+}
+main .menu .chocolatePizza .btnChocolate {
+  background-color: #ffc506;
+  border: none;
+}
+main .menu .chocolatePizza .btnChocolate:hover {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+main .menu .ConfettiPizza .confettiImage {
+  background-color: #424242;
+}
+main .menu .ConfettiPizza .subtitleConfetti {
+  background-color: #d9d9d9;
+}
+main .menu .ConfettiPizza .piecePriceConfetti {
+  background-color: #d9d9d9;
+}
+main .menu .ConfettiPizza .btnConfetti {
+  background-color: #ffc506;
+  border: none;
+}
+main .menu .ConfettiPizza .btnConfetti:hover {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+main .menu .prestigePizza .prestigeImage {
+  background-color: #424242;
+}
+main .menu .prestigePizza .subtitlePrestige {
+  background-color: #d9d9d9;
+}
+main .menu .prestigePizza .piecePricePrestige {
+  background-color: #d9d9d9;
+}
+main .menu .prestigePizza .btnPrestige {
+  background-color: #ffc506;
+  border: none;
+}
+main .menu .prestigePizza .btnPrestige:hover {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+
+footer .contact {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+footer .contact .instagram:hover {
+  color: #ffc506;
+}
+footer .contact .cellFone:hover {
+  color: #ffc506;
+}
+footer .contact .gitHub:hover {
+  color: #ffc506;
+}
+footer .credit {
+  background-color: #1e1e1e;
+  color: #ffc506;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .pizzaJama {
+    display: flex;
+  }
+  header .IlustrationPizza {
+    width: 3em;
+    height: 3em;
+    margin-left: 0.4em;
+    margin-top: 0.4em;
+  }
+  header .subtitleJama {
+    margin-top: 2.7em;
+    font-size: 0.8em;
+  }
+  header .closebtn {
+    border: none;
+  }
+  header .overlay {
+    width: 0%;
+    max-height: 70%;
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    left: 0;
+    top: 0;
+  }
+  header .overlay-content {
+    padding-top: 0.7em;
+    padding-left: 2em;
+    font-size: 0.8em;
+  }
+  header .iconesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+  }
+  header nav li {
+    list-style: none;
+  }
+  header nav a {
+    list-style: none;
+    text-decoration: none;
+  }
+  header #openHamburguer {
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    font-size: 1.7em;
+  }
+  main .introduction {
+    padding-top: 1em;
+    max-width: 100%;
+    max-height: auto;
+    background-image: url(./../../image/fundopizza.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5em;
+  }
+  main .introduction .titleIntroduction {
+    padding-top: 3em;
+    font-size: 1.5em;
+  }
+  main .introduction .subtitleIntroduction {
+    padding-top: 2em;
+    font-size: 1em;
+  }
+  main .introduction .btnIntroductionOne {
+    display: block;
+    margin-top: 4em;
+    padding: 1.2em;
+    border-radius: 1em;
+    margin: 3em auto;
+    font-size: 0.7em;
+  }
+  main .introduction .btnIntroductionTwo {
+    display: block;
+    padding: 1.2em;
+    border-radius: 1em;
+    margin: 3em auto;
+    font-size: 0.7em;
+  }
+  main .aboultUs {
+    width: 100%;
+  }
+  main .aboultUs .titleAboultUs {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2em;
+  }
+  main .aboultUs .subtitleAboultUs {
+    text-align: center;
+    margin: 0 2.5em 0 2.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 0.8em;
+  }
+  main .aboultUs .kitchen {
+    max-width: 100%;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+  }
+  main .menu {
+    padding-bottom: 5em;
+    padding-left: 0.5em;
+  }
+  main .menu .titleMenu {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+  }
+  main .menu .ChickenPizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .ChickenPizza .chickenImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .ChickenPizza .subtitleChicken {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .ChickenPizza .piecePriceCkicken {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.8em;
+  }
+  main .menu .ChickenPizza span {
+    margin-left: 4em;
+  }
+  main .menu .ChickenPizza .btnChicken {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .pepperoniPizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .pepperoniPizza .pepperoniImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .pepperoniPizza .subtitlePepperoni {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .pepperoniPizza .piecePricePepperoni {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.8em;
+  }
+  main .menu .pepperoniPizza span {
+    margin-left: 4em;
+  }
+  main .menu .pepperoniPizza .btnPepperoni {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .portuguesePizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .portuguesePizza .portugueseImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .portuguesePizza .subtitlePortuguese {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .portuguesePizza .piecePricePortuguese {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.8em;
+  }
+  main .menu .portuguesePizza span {
+    margin-left: 4em;
+  }
+  main .menu .portuguesePizza .btnPortuguese {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .strognofPizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .strognofPizza .strognofImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .strognofPizza .subtitleStrognof {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 1.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .strognofPizza .piecePriceStrognof {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.8em;
+  }
+  main .menu .strognofPizza span {
+    margin-left: 4em;
+  }
+  main .menu .strognofPizza .btnStrognof {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .sensationalPizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .sensationalPizza .sensationalImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .sensationalPizza .subtitleSensational {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 1.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .sensationalPizza .piecePriceSensational {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.8em;
+  }
+  main .menu .sensationalPizza span {
+    margin-left: 4em;
+  }
+  main .menu .sensationalPizza .btnSensational {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .chocolatePizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .chocolatePizza .chocolateImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 1.8em 0 1.8em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .chocolatePizza .subtitleChocolate {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 1.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .chocolatePizza .piecePriceChocolate {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.8em;
+  }
+  main .menu .chocolatePizza span {
+    margin-left: 4em;
+  }
+  main .menu .chocolatePizza .btnChocolate {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .ConfettiPizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .ConfettiPizza .confettiImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 0 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .ConfettiPizza .subtitleConfetti {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 1.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .ConfettiPizza .piecePriceConfetti {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.8em;
+  }
+  main .menu .ConfettiPizza span {
+    margin-left: 4em;
+  }
+  main .menu .ConfettiPizza .btnConfetti {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .prestigePizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .prestigePizza .prestigeImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 0 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .prestigePizza .subtitlePrestige {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 1.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .prestigePizza .piecePricePrestige {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.8em;
+  }
+  main .menu .prestigePizza span {
+    margin-left: 4em;
+  }
+  main .menu .prestigePizza .btnPrestige {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  footer .contact {
+    padding-top: 2em;
+    text-align: center;
+  }
+  footer .contact .instagram {
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  footer .contact .instagram .subtitleInstagram {
+    margin-top: 0.5em;
+  }
+  footer .contact .cellFone {
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  footer .contact .cellFone .subtitleCellFone {
+    margin-top: 0.5em;
+  }
+  footer .contact .gitHub {
+    margin-top: 3em;
+    padding-bottom: 5em;
+  }
+  footer .contact .gitHub .subtitleGithub {
+    margin-top: 0.5em;
+  }
+  footer .contact .gitHub .credit {
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .pizzaJama {
+    display: flex;
+  }
+  header .IlustrationPizza {
+    width: 4em;
+    height: 4em;
+    margin-left: 0.4em;
+    margin-top: 0.4em;
+  }
+  header .subtitleJama {
+    margin-top: 2.3em;
+    font-size: 1.1em;
+  }
+  header .closebtn {
+    border: none;
+  }
+  header .overlay {
+    width: 0%;
+    max-height: 75%;
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    left: 0;
+    top: 0;
+  }
+  header #menuHamburguer {
+    padding-bottom: 1em;
+  }
+  header .overlay-content {
+    padding-top: 0.5em;
+    padding-left: 2em;
+    font-size: 0.9em;
+  }
+  header .iconesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+  }
+  header nav li {
+    list-style: none;
+  }
+  header nav a {
+    list-style: none;
+    text-decoration: none;
+  }
+  header #openHamburguer {
+    padding-right: 0.5em;
+    padding-top: 0.4em;
+    font-size: 2.3em;
+  }
+  main .introduction {
+    padding-top: 1em;
+    max-width: 100%;
+    max-height: auto;
+    background-image: url(./../../image/fundopizza.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5em;
+  }
+  main .introduction .titleIntroduction {
+    padding-top: 3em;
+    font-size: 2.2em;
+  }
+  main .introduction .subtitleIntroduction {
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+  main .introduction .btn {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+  main .introduction .btnIntroductionOne {
+    margin-top: 4em;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: 1em;
+    font-size: 1em;
+  }
+  main .introduction .btnIntroductionTwo {
+    margin-top: 4em;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1em;
+  }
+  main .aboultUs {
+    width: 100%;
+  }
+  main .aboultUs .titleAboultUs {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2.5em;
+  }
+  main .aboultUs .subtitleAboultUs {
+    text-align: center;
+    margin: 0 2.5em 0 2.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 1em;
+  }
+  main .aboultUs .kitchen {
+    max-width: 100%;
+    height: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+  }
+  main .menu {
+    padding-bottom: 5em;
+    padding-left: 3em;
+  }
+  main .menu .titleMenu {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 2.3em;
+  }
+  main .menu .ChickenPizza {
+    margin-top: 2em;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  main .menu .ChickenPizza .chickenImage {
+    max-width: 60%;
+    height: auto;
+    margin: 0 2em 0 3.8em;
+  }
+  main .menu .ChickenPizza .subtitleChicken {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .ChickenPizza .piecePriceCkicken {
+    max-width: 60%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 1em;
+  }
+  main .menu .ChickenPizza span {
+    margin-left: 4em;
+  }
+  main .menu .ChickenPizza .btnChicken {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .pepperoniPizza {
+    margin-top: 4em;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  main .menu .pepperoniPizza .pepperoniImage {
+    max-width: 60%;
+    height: auto;
+    margin: 0 2.5em 0 3.8em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  main .menu .pepperoniPizza .subtitlePepperoni {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .pepperoniPizza .piecePricePepperoni {
+    max-width: 60%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 1em;
+  }
+  main .menu .pepperoniPizza span {
+    margin-left: 4em;
+    font-size: 1em;
+  }
+  main .menu .pepperoniPizza .btnPepperoni {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .portuguesePizza {
+    margin-top: 4em;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  main .menu .portuguesePizza .portugueseImage {
+    max-width: 60%;
+    height: auto;
+    padding: 0 2em 0 2em;
+    margin: 0 2em 0 3.8em;
+  }
+  main .menu .portuguesePizza .subtitlePortuguese {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .portuguesePizza .piecePricePortuguese {
+    max-width: 60%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 1em;
+  }
+  main .menu .portuguesePizza span {
+    margin-left: 4em;
+  }
+  main .menu .portuguesePizza .btnPortuguese {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .strognofPizza {
+    margin-top: 4em;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  main .menu .strognofPizza .strognofImage {
+    max-width: 60%;
+    height: auto;
+    margin: 0 2em 0 3.8em;
+  }
+  main .menu .strognofPizza .subtitleStrognof {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .strognofPizza .piecePriceStrognof {
+    max-width: 60%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 1em;
+  }
+  main .menu .strognofPizza span {
+    margin-left: 4em;
+    font-size: 1em;
+  }
+  main .menu .strognofPizza .btnStrognof {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .sensationalPizza {
+    margin-top: 4em;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  main .menu .sensationalPizza .sensationalImage {
+    max-width: 60%;
+    height: auto;
+    margin: 0 2em 0 3.8em;
+  }
+  main .menu .sensationalPizza .subtitleSensational {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .sensationalPizza .piecePriceSensational {
+    max-width: 60%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 1em;
+  }
+  main .menu .sensationalPizza span {
+    margin-left: 4em;
+    font-size: 1em;
+  }
+  main .menu .sensationalPizza .btnSensational {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .chocolatePizza {
+    margin-top: 4em;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  main .menu .chocolatePizza .chocolateImage {
+    max-width: 60%;
+    height: auto;
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin: 0 2em 0 3.8em;
+  }
+  main .menu .chocolatePizza .subtitleChocolate {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .chocolatePizza .piecePriceChocolate {
+    max-width: 60%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+  }
+  main .menu .chocolatePizza span {
+    margin-left: 4em;
+  }
+  main .menu .chocolatePizza .btnChocolate {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .ConfettiPizza {
+    margin-top: 4em;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  main .menu .ConfettiPizza .confettiImage {
+    max-width: 60%;
+    height: auto;
+    margin: 0 2em 0 3.8em;
+  }
+  main .menu .ConfettiPizza .subtitleConfetti {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .ConfettiPizza .piecePriceConfetti {
+    max-width: 60%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 1em;
+  }
+  main .menu .ConfettiPizza span {
+    margin-left: 4em;
+  }
+  main .menu .ConfettiPizza .btnConfetti {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .prestigePizza {
+    margin-top: 4em;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  main .menu .prestigePizza .prestigeImage {
+    max-width: 60%;
+    height: auto;
+    padding-top: 2em;
+    margin: 0 2em 0 3.8em;
+  }
+  main .menu .prestigePizza .subtitlePrestige {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+  main .menu .prestigePizza .piecePricePrestige {
+    max-width: 60%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 1em;
+  }
+  main .menu .prestigePizza span {
+    margin-left: 4em;
+  }
+  main .menu .prestigePizza .btnPrestige {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  footer .contact {
+    padding-top: 2em;
+    text-align: center;
+  }
+  footer .contact .instagram {
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  footer .contact .instagram .subtitleInstagram {
+    margin-top: 0.5em;
+  }
+  footer .contact .cellFone {
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  footer .contact .cellFone .subtitleCellFone {
+    margin-top: 0.5em;
+  }
+  footer .contact .gitHub {
+    margin-top: 3em;
+    padding-bottom: 5em;
+  }
+  footer .contact .gitHub .subtitleGithub {
+    margin-top: 0.5em;
+  }
+  footer .contact .gitHub .credit {
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .pizzaJama {
+    display: flex;
+  }
+  header .IlustrationPizza {
+    width: 4em;
+    height: 4em;
+    margin-left: 0.4em;
+    margin-top: 0.4em;
+  }
+  header .subtitleJama {
+    margin-top: 2.7em;
+  }
+  header .closebtn {
+    border: none;
+  }
+  header .overlay {
+    width: 0%;
+    max-height: 77%;
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    left: 0;
+    top: 0;
+  }
+  header #menuHamburguer {
+    padding-bottom: 0.5em;
+  }
+  header .overlay-content {
+    padding-left: 2em;
+  }
+  header .iconesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+  }
+  header nav li {
+    list-style: none;
+  }
+  header nav a {
+    list-style: none;
+    text-decoration: none;
+  }
+  header #openHamburguer {
+    padding-top: 0.4em;
+    padding-right: 0.5em;
+    font-size: 2.3em;
+  }
+  main .introduction {
+    padding-top: 1em;
+    max-width: 100%;
+    max-height: auto;
+    background-image: url(./../../image/fundopizza.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5em;
+  }
+  main .introduction .titleIntroduction {
+    padding-top: 3em;
+    font-size: 3em;
+  }
+  main .introduction .subtitleIntroduction {
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+  main .introduction .btn {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+  main .introduction .btnIntroductionOne {
+    margin-top: 4em;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: 1em;
+    font-size: 1em;
+  }
+  main .introduction .btnIntroductionTwo {
+    margin-top: 4em;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1em;
+  }
+  main .aboultUs {
+    width: 100%;
+    display: flex;
+  }
+  main .aboultUs .titleAboultUs {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 2.5em;
+  }
+  main .aboultUs .subtitleAboultUs {
+    text-align: center;
+    margin: 0 2.5em 0 2.5em;
+    padding-bottom: 2em;
+    font-size: 1em;
+  }
+  main .aboultUs .kitchen {
+    max-width: 50%;
+    height: auto;
+    padding-top: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+  }
+  main .menu {
+    padding-bottom: 5em;
+  }
+  main .menu .titleMenu {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 2.5em;
+  }
+  main .menu .menuOne {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+  }
+  main .menu .menuOne .ChickenPizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuOne .ChickenPizza .chickenImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .menuOne .ChickenPizza .subtitleChicken {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuOne .ChickenPizza .piecePriceCkicken {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.3em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .ChickenPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .ChickenPizza .btnChicken {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuOne .pepperoniPizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuOne .pepperoniPizza .pepperoniImage {
+    max-width: 70%;
+    height: auto;
+    margin: 2em 2em 0 3.4em;
+    padding: 0.7em 2.5em 0.7em 2.5em;
+  }
+  main .menu .menuOne .pepperoniPizza .subtitlePepperoni {
+    max-width: 70%;
+    height: auto;
+    margin: 0 2.3em 0 2.3em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuOne .pepperoniPizza .piecePricePepperoni {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 2.8em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .pepperoniPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .pepperoniPizza .btnPepperoni {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuOne .portuguesePizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuOne .portuguesePizza .portugueseImage {
+    max-width: 70%;
+    height: auto;
+    padding: 0 1em 0.7em 0.7em;
+    margin: 3em 2em 0 3em;
+  }
+  main .menu .menuOne .portuguesePizza .subtitlePortuguese {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuOne .portuguesePizza .piecePricePortuguese {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 2em 0 3.3em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .portuguesePizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .portuguesePizza .btnPortuguese {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuOne .strognofPizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuOne .strognofPizza .strognofImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 0.7em 0.5em;
+    margin: 3em 2em 0 3.5em;
+  }
+  main .menu .menuOne .strognofPizza .subtitleStrognof {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuOne .strognofPizza .piecePriceStrognof {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .strognofPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .strognofPizza .btnStrognof {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+  }
+  main .menu .menuTwo .sensationalPizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuTwo .sensationalPizza .sensationalImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 3em 1em 0 3em;
+  }
+  main .menu .menuTwo .sensationalPizza .subtitleSensational {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuTwo .sensationalPizza .piecePriceSensational {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 2em 0 3.4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .sensationalPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .sensationalPizza .btnSensational {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuTwo .chocolatePizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuTwo .chocolatePizza .chocolateImage {
+    max-width: 70%;
+    height: auto;
+    padding: 1em 3em 0 3em;
+    margin: 3em 1em 0 3.4em;
+  }
+  main .menu .menuTwo .chocolatePizza .subtitleChocolate {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuTwo .chocolatePizza .piecePriceChocolate {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 4.1em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .chocolatePizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .chocolatePizza .btnChocolate {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuTwo .ConfettiPizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuTwo .ConfettiPizza .confettiImage {
+    max-width: 70%;
+    height: auto;
+    padding: 0.5em 0.5em 0 0.5em;
+    margin: 3em 1em 0 3em;
+  }
+  main .menu .menuTwo .ConfettiPizza .subtitleConfetti {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuTwo .ConfettiPizza .piecePriceConfetti {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 1.5em;
+    display: block;
+    margin: 0 2em 0 3.4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .ConfettiPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .ConfettiPizza .btnConfetti {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuTwo .prestigePizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuTwo .prestigePizza .prestigeImage {
+    max-width: 70%;
+    height: auto;
+    padding: 0.5em 0.5em 0 0.5em;
+    margin: 3em 1em 0 3.4em;
+  }
+  main .menu .menuTwo .prestigePizza .subtitlePrestige {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuTwo .prestigePizza .piecePricePrestige {
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 1em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .prestigePizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .prestigePizza .btnPrestige {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  footer .contact {
+    padding-top: 2em;
+    text-align: center;
+  }
+  footer .contact .contactOne {
+    display: flex;
+    justify-content: center;
+    gap: 5.5em;
+    padding-bottom: 7em;
+    cursor: pointer;
+  }
+  footer .contact .instagram {
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+  footer .contact .instagram .subtitleInstagram {
+    margin-top: 0.5em;
+  }
+  footer .contact .cellFone {
+    margin-top: 4em;
+    margin-bottom: 2em;
+    padding-left: 2em;
+  }
+  footer .contact .cellFone .subtitleCellFone {
+    margin-top: 0.5em;
+  }
+  footer .contact .gitHub {
+    margin-top: 4em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+  }
+  footer .contact .gitHub .subtitleGithub {
+    margin-top: 0.5em;
+  }
+  footer .contact .gitHub .credit {
+    margin-top: 10em;
+    margin-bottom: 10em;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .pizzaJama {
+    display: flex;
+  }
+  header .IlustrationPizza {
+    width: 4em;
+    height: 4em;
+    margin-left: 0.4em;
+    margin-top: 0.4em;
+  }
+  header .subtitleJama {
+    margin-top: 2.7em;
+  }
+  header .closebtn {
+    border: none;
+    cursor: pointer;
+  }
+  header .overlay {
+    width: 0%;
+    max-height: 80%;
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    left: 0;
+    top: 0;
+  }
+  header #menuHamburguer {
+    padding-bottom: 1em;
+  }
+  header .overlay-content {
+    padding-left: 2em;
+  }
+  header .iconesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    cursor: pointer;
+  }
+  header nav li {
+    list-style: none;
+  }
+  header nav a {
+    list-style: none;
+    text-decoration: none;
+  }
+  header #openHamburguer {
+    padding-top: 0.4em;
+    padding-right: 0.5em;
+    font-size: 2.3em;
+    cursor: pointer;
+  }
+  main .introduction {
+    padding-top: 1em;
+    max-width: 100%;
+    max-height: auto;
+    background-image: url(./../../image/fundopizza.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5em;
+  }
+  main .introduction .titleIntroduction {
+    padding-top: 3em;
+    font-size: 3em;
+  }
+  main .introduction .subtitleIntroduction {
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+  main .introduction .btn {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+  main .introduction .btnIntroductionOne {
+    margin-top: 4em;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: 1em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  main .introduction .btnIntroductionTwo {
+    margin-top: 4em;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  main .aboultUs {
+    width: 100%;
+    display: flex;
+  }
+  main .aboultUs .titleAboultUs {
+    padding-top: 2.9em;
+    padding-bottom: 0.5em;
+    font-size: 2.5em;
+  }
+  main .aboultUs .subtitleAboultUs {
+    text-align: center;
+    margin: 0 6em 0 6em;
+    padding-bottom: 2em;
+    font-size: 1em;
+  }
+  main .aboultUs .kitchen {
+    max-width: 50%;
+    height: auto;
+    padding-top: 6em;
+    padding-right: 4em;
+    padding-bottom: 8em;
+  }
+  main .menu {
+    padding-bottom: 5em;
+  }
+  main .menu .titleMenu {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 2.5em;
+  }
+  main .menu .menuOne {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    margin-left: 5em;
+  }
+  main .menu .menuOne .ChickenPizza {
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuOne .ChickenPizza .chickenImage {
+    max-width: 65%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 0 2em 0 3em;
+  }
+  main .menu .menuOne .ChickenPizza .subtitleChicken {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuOne .ChickenPizza .piecePriceCkicken {
+    max-width: 65%;
+    height: auto;
+    margin-left: 3.3em;
+    padding-bottom: 2em;
+    display: block;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .ChickenPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .ChickenPizza .btnChicken {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuOne .pepperoniPizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuOne .pepperoniPizza .pepperoniImage {
+    max-width: 65%;
+    height: auto;
+    margin: 2em 2em 0 3.4em;
+    padding: 0.7em 2.5em 0.7em 2.5em;
+  }
+  main .menu .menuOne .pepperoniPizza .subtitlePepperoni {
+    max-width: 70%;
+    height: auto;
+    margin: 0 2.3em 0 2.3em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuOne .pepperoniPizza .piecePricePepperoni {
+    max-width: 65%;
+    height: auto;
+    margin-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 2.8em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .pepperoniPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .pepperoniPizza .btnPepperoni {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuOne .portuguesePizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuOne .portuguesePizza .portugueseImage {
+    max-width: 65%;
+    height: auto;
+    padding: 0 1em 0.7em 0.7em;
+    margin: 3em 2em 0 3em;
+  }
+  main .menu .menuOne .portuguesePizza .subtitlePortuguese {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuOne .portuguesePizza .piecePricePortuguese {
+    max-width: 65%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 2em 0 3.3em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .portuguesePizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .portuguesePizza .btnPortuguese {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuOne .strognofPizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuOne .strognofPizza .strognofImage {
+    max-width: 65%;
+    height: auto;
+    padding: 1em 0.5em 0.7em 0.5em;
+    margin: 3em 2em 0 3.5em;
+  }
+  main .menu .menuOne .strognofPizza .subtitleStrognof {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuOne .strognofPizza .piecePriceStrognof {
+    max-width: 65%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .strognofPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuOne .strognofPizza .btnStrognof {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    margin-left: 5em;
+  }
+  main .menu .menuTwo .sensationalPizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuTwo .sensationalPizza .sensationalImage {
+    max-width: 65%;
+    height: auto;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 3em 1em 0 3em;
+  }
+  main .menu .menuTwo .sensationalPizza .subtitleSensational {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuTwo .sensationalPizza .piecePriceSensational {
+    max-width: 65%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 2em 0 3.4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .sensationalPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .sensationalPizza .btnSensational {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuTwo .chocolatePizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuTwo .chocolatePizza .chocolateImage {
+    max-width: 65%;
+    height: auto;
+    padding: 1em 3em 0 3em;
+    margin: 3em 1em 0 3.4em;
+  }
+  main .menu .menuTwo .chocolatePizza .subtitleChocolate {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuTwo .chocolatePizza .piecePriceChocolate {
+    max-width: 65%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 4.1em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .chocolatePizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .chocolatePizza .btnChocolate {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuTwo .ConfettiPizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuTwo .ConfettiPizza .confettiImage {
+    max-width: 65%;
+    height: auto;
+    padding: 0.5em 0.5em 0 0.5em;
+    margin: 3em 1em 0 3em;
+  }
+  main .menu .menuTwo .ConfettiPizza .subtitleConfetti {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuTwo .ConfettiPizza .piecePriceConfetti {
+    max-width: 65%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 1.5em;
+    display: block;
+    margin: 0 2em 0 3.4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .ConfettiPizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .ConfettiPizza .btnConfetti {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  main .menu .menuTwo .prestigePizza {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .menu .menuTwo .prestigePizza .prestigeImage {
+    max-width: 65%;
+    height: auto;
+    padding: 0.5em 0.5em 0 0.5em;
+    margin: 3em 1em 0 3.4em;
+  }
+  main .menu .menuTwo .prestigePizza .subtitlePrestige {
+    max-width: 70%;
+    height: auto;
+    margin: 0 1.8em 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  main .menu .menuTwo .prestigePizza .piecePricePrestige {
+    max-width: 65%;
+    height: auto;
+    margin-left: 3.8em;
+    padding-bottom: 1em;
+    display: block;
+    margin: 0 2em 0 3.8em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .prestigePizza span {
+    margin-left: 4em;
+    font-size: 0.9em;
+  }
+  main .menu .menuTwo .prestigePizza .btnPrestige {
+    padding: 0.5em 1em 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  footer .contact {
+    padding-top: 5em;
+    text-align: center;
+  }
+  footer .contact .contactOne {
+    display: flex;
+    justify-content: center;
+    gap: 5.5em;
+    padding-bottom: 7em;
+    cursor: pointer;
+  }
+  footer .contact .instagram {
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+  footer .contact .instagram .subtitleInstagram {
+    margin-top: 0.5em;
+  }
+  footer .contact .cellFone {
+    margin-top: 4em;
+    margin-bottom: 2em;
+    padding-left: 2em;
+  }
+  footer .contact .cellFone .subtitleCellFone {
+    margin-top: 0.5em;
+  }
+  footer .contact .gitHub {
+    margin-top: 4em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+  }
+  footer .contact .gitHub .subtitleGithub {
+    margin-top: 0.5em;
+  }
+  footer .contact .gitHub .credit {
+    margin-top: 10em;
+    margin-bottom: 10em;
+  }
+}
+header .subtitleJama {
+  font-family: "Marhey", sans-serif;
+  font-weight: 300;
+}
+header .closebtn {
+  font-family: "Marhey", sans-serif;
+  font-size: 2em;
+}
+header .overlay-content {
+  font-family: "Marhey", sans-serif;
+}
+header .overlay-content li {
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+main .introduction {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+main .introduction .titleIntroduction {
+  font-weight: 400;
+  font-family: "Marhey", sans-serif;
+}
+main .introduction .subtitleIntroduction {
+  font-weight: 400;
+  font-family: "Marhey", sans-serif;
+}
+main .introduction .btnIntroductionOne {
+  font-family: "Roboto", sans-serif;
+}
+main .introduction .btnIntroductionTwo {
+  font-family: "Roboto", sans-serif;
+}
+main .aboultUs .titleAboultUs {
+  font-family: "Marhey", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+main .aboultUs .subtitleAboultUs {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 2;
+}
+main .menu .titleMenu {
+  text-align: center;
+  font-family: "Marhey", sans-serif;
+  font-weight: 400;
+}
+main .menu .ChickenPizza .piecePriceCkicken {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+main .menu .ChickenPizza .piecePriceCkicken .subtitleChicken {
+  font-family: "Marhey", sans-serif;
+}
+main .menu .ChickenPizza .piecePriceCkicken .btnChicken {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+main .menu .pepperoniPizza .piecePricePepperoni {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+main .menu .pepperoniPizza .subtitlePepperoni {
+  text-align: center;
+  font-family: "Marhey", sans-serif;
+}
+main .menu .portuguesePizza .piecePricePortuguese {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+main .menu .portuguesePizza .subtitlePortuguese {
+  text-align: center;
+  font-family: "Marhey", sans-serif;
+}
+main .menu .strognofPizza .piecePriceStrognof {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+main .menu .strognofPizza .subtitleStrognof {
+  text-align: center;
+  font-family: "Marhey", sans-serif;
+}
+main .menu .sensationalPizza .piecePriceSensational {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+main .menu .sensationalPizza .subtitleSensational {
+  text-align: center;
+  font-family: "Marhey", sans-serif;
+}
+main .menu .chocolatePizza .piecePriceChocolate {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+main .menu .chocolatePizza .subtitleChocolate {
+  text-align: center;
+  font-family: "Marhey", sans-serif;
+}
+main .menu .ConfettiPizza .piecePriceConfetti {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+main .menu .ConfettiPizza .subtitleConfetti {
+  text-align: center;
+  font-family: "Marhey", sans-serif;
+}
+main .menu .prestigePizza .piecePricePrestige {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+main .menu .prestigePizza .subtitlePrestige {
+  text-align: center;
+  font-family: "Marhey", sans-serif;
+}
+
+footer .contact {
+  font-family: "Marhey", sans-serif;
+  font-weight: 100;
+}
+footer .contact .titleContact {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+footer .contact .instagram .bi-instagram {
+  font-size: 1.5em;
+}
+footer .contact .instagram .subtitleInstagram {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+footer .contact .cellFone .bi-telephone-fill {
+  font-size: 1.5em;
+}
+footer .contact .cellFone .subtitleCellFone {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+footer .contact .gitHub .bi-github {
+  font-size: 1.5em;
+}
+footer .contact .gitHub .subtitleGithub {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+footer .credit {
+  text-align: center;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */

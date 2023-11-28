@@ -1,0 +1,244 @@
+$firstColor: #ffc506;
+$secondColor: #ffffff;
+$thirdColor: #1e1e1e;
+$fourthColor: #545454;
+$fifthColor: #424242;
+$sixthColor: #d9d9d9;
+$seventColor: #1e1e1ee4;
+
+header {
+  background-color: $thirdColor;
+  .subtitleJama {
+    color: $secondColor;
+  }
+  .closebtn {
+    color: $firstColor;
+    background-color: rgba(30, 30, 30, 0);
+  }
+  .overlay-content {
+    background-color: $seventColor;
+  }
+  .overlay-content a {
+    color: $firstColor;
+  }
+  .iconesSociais {
+    color: $secondColor;
+    background-color: $seventColor;
+  }
+  #openHamburguer {
+    color: $secondColor;
+  }
+}
+main {
+  .introduction {
+    .titleIntroduction {
+      color: $firstColor;
+    }
+    .subtitleIntroduction {
+      color: $secondColor;
+    }
+    .btnIntroductionOne {
+      background-color: $firstColor;
+      border: none;
+    }
+    .btnIntroductionOne:hover {
+      color: $firstColor;
+      background-color: $thirdColor;
+    }
+    .btnIntroductionTwo {
+      background-color: $firstColor;
+      border: none;
+    }
+    .btnIntroductionTwo:hover {
+      color: $firstColor;
+      background-color: $thirdColor;
+    }
+  }
+  .aboultUs {
+    background-color: $thirdColor;
+    .titleAboultUs {
+      color: $secondColor;
+    }
+    .subtitleAboultUs {
+      color: $secondColor;
+    }
+  }
+  .menu {
+    background-color: $fourthColor;
+    .titleMenu {
+      color: $sixthColor;
+    }
+    .ChickenPizza {
+      .chickenImage {
+        background-color: $fifthColor;
+      }
+      .subtitleChicken {
+        background-color: $sixthColor;
+      }
+      .piecePriceCkicken {
+        background-color: $sixthColor;
+      }
+      .btnChicken {
+        background-color: $firstColor;
+        border: none;
+      }
+      .btnChicken:hover {
+        background-color: $thirdColor;
+        color: $firstColor;
+      }
+    }
+    .pepperoniPizza {
+      .pepperoniImage {
+        background-color: $fifthColor;
+      }
+      .subtitlePepperoni {
+        background-color: $sixthColor;
+      }
+      .piecePricePepperoni {
+        background-color: $sixthColor;
+      }
+      .btnPepperoni {
+        background-color: $firstColor;
+        border: none;
+      }
+      .btnPepperoni:hover {
+        background-color: $thirdColor;
+        color: $firstColor;
+      }
+    }
+    .portuguesePizza {
+      .portugueseImage {
+        background-color: $fifthColor;
+      }
+      .subtitlePortuguese {
+        background-color: $sixthColor;
+      }
+      .piecePricePortuguese {
+        background-color: $sixthColor;
+      }
+      .btnPortuguese {
+        background-color: $firstColor;
+        border: none;
+      }
+      .btnPortuguese:hover {
+        background-color: $thirdColor;
+        color: $firstColor;
+      }
+    }
+    .strognofPizza {
+      .strognofImage {
+        background-color: $fifthColor;
+      }
+      .subtitleStrognof {
+        background-color: $sixthColor;
+      }
+      .piecePriceStrognof {
+        background-color: $sixthColor;
+      }
+      .btnStrognof {
+        background-color: $firstColor;
+        border: none;
+      }
+      .btnStrognof:hover {
+        background-color: $thirdColor;
+        color: $firstColor;
+      }
+    }
+    .sensationalPizza {
+      .sensationalImage {
+        background-color: $fifthColor;
+      }
+      .subtitleSensational {
+        background-color: $sixthColor;
+      }
+      .piecePriceSensational {
+        background-color: $sixthColor;
+      }
+      .btnSensational {
+        background-color: $firstColor;
+        border: none;
+      }
+      .btnSensational:hover {
+        background-color: $thirdColor;
+        color: $firstColor;
+      }
+    }
+    .chocolatePizza {
+      .chocolateImage {
+        background-color: $fifthColor;
+      }
+      .subtitleChocolate {
+        background-color: $sixthColor;
+      }
+      .piecePriceChocolate {
+        background-color: $sixthColor;
+      }
+      .btnChocolate {
+        background-color: $firstColor;
+        border: none;
+      }
+      .btnChocolate:hover {
+        background-color: $thirdColor;
+        color: $firstColor;
+      }
+    }
+    .ConfettiPizza {
+      .confettiImage {
+        background-color: $fifthColor;
+      }
+      .subtitleConfetti {
+        background-color: $sixthColor;
+      }
+      .piecePriceConfetti {
+        background-color: $sixthColor;
+      }
+      .btnConfetti {
+        background-color: $firstColor;
+        border: none;
+      }
+      .btnConfetti:hover {
+        background-color: $thirdColor;
+        color: $firstColor;
+      }
+    }
+    .prestigePizza {
+      .prestigeImage {
+        background-color: $fifthColor;
+      }
+      .subtitlePrestige {
+        background-color: $sixthColor;
+      }
+      .piecePricePrestige {
+        background-color: $sixthColor;
+      }
+      .btnPrestige {
+        background-color: $firstColor;
+        border: none;
+      }
+      .btnPrestige:hover {
+        background-color: $thirdColor;
+        color: $firstColor;
+      }
+    }
+  }
+}
+
+footer {
+  .contact {
+    background-color: $thirdColor;
+    color: $secondColor;
+    .instagram:hover {
+      color: $firstColor;
+    }
+    .cellFone:hover {
+      color: $firstColor;
+    }
+    .gitHub:hover {
+      color: $firstColor;
+    }
+  }
+  .credit {
+    background-color: $thirdColor;
+    color: $firstColor;
+  }
+}

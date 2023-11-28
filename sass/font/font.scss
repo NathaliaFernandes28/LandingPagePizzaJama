@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap");
+
+$font-family: "Roboto", sans-serif;
+$font-title: "Marhey", sans-serif;
+
+header {
+  .subtitleJama {
+    font-family: $font-title;
+
+    font-weight: 300;
+  }
+  .closebtn {
+    font-family: $font-title;
+    font-size: 2em;
+  }
+  .overlay-content {
+    font-family: $font-title;
+  }
+  .overlay-content li {
+    text-align: center;
+    padding-bottom: 1.5em;
+  }
+}
+main {
+  .introduction {
+    text-align: center;
+    font-family: $font-family;
+    .titleIntroduction {
+      font-weight: 400;
+      font-family: $font-title;
+    }
+    .subtitleIntroduction {
+      font-weight: 400;
+      font-family: $font-title;
+    }
+    .btnIntroductionOne {
+      font-family: $font-family;
+    }
+    .btnIntroductionTwo {
+      font-family: $font-family;
+    }
+  }
+  .aboultUs {
+    .titleAboultUs {
+      font-family: $font-title;
+      font-weight: 400;
+      text-align: center;
+    }
+    .subtitleAboultUs {
+      text-align: center;
+      font-family: $font-family;
+      font-weight: 300;
+      line-height: 2;
+    }
+  }
+  .menu {
+    .titleMenu {
+      text-align: center;
+      font-family: $font-title;
+      font-weight: 400;
+    }
+    .ChickenPizza {
+      .piecePriceCkicken {
+        text-align: center;
+        font-family: $font-family;
+        line-height: 1.8;
+        .subtitleChicken {
+          font-family: $font-title;
+        }
+        .btnChicken {
+          font-family: $font-family;
+          font-size: 1em;
+        }
+      }
+    }
+    .pepperoniPizza {
+      .piecePricePepperoni {
+        text-align: center;
+        font-family: $font-family;
+        line-height: 1.8;
+      }
+      .subtitlePepperoni {
+        text-align: center;
+        font-family: $font-title;
+      }
+    }
+    .portuguesePizza {
+      .piecePricePortuguese {
+        text-align: center;
+        font-family: $font-family;
+        line-height: 1.8;
+      }
+      .subtitlePortuguese {
+        text-align: center;
+        font-family: $font-title;
+      }
+    }
+    .strognofPizza {
+      .piecePriceStrognof {
+        text-align: center;
+        font-family: $font-family;
+        line-height: 1.8;
+      }
+      .subtitleStrognof {
+        text-align: center;
+        font-family: $font-title;
+      }
+    }
+    .sensationalPizza {
+      .piecePriceSensational {
+        text-align: center;
+        font-family: $font-family;
+        line-height: 1.8;
+      }
+      .subtitleSensational {
+        text-align: center;
+        font-family: $font-title;
+      }
+    }
+    .chocolatePizza {
+      .piecePriceChocolate {
+        text-align: center;
+        font-family: $font-family;
+        line-height: 1.8;
+      }
+      .subtitleChocolate {
+        text-align: center;
+        font-family: $font-title;
+      }
+    }
+    .ConfettiPizza {
+      .piecePriceConfetti {
+        text-align: center;
+        font-family: $font-family;
+        line-height: 1.8;
+      }
+      .subtitleConfetti {
+        text-align: center;
+        font-family: $font-title;
+      }
+    }
+    .prestigePizza {
+      .piecePricePrestige {
+        text-align: center;
+        font-family: $font-family;
+        line-height: 1.8;
+      }
+      .subtitlePrestige {
+        text-align: center;
+        font-family: $font-title;
+      }
+    }
+  }
+}
+footer {
+  .contact {
+    font-family: $font-title;
+    font-weight: 100;
+    .titleContact {
+      font-size: 2.5em;
+      font-weight: 400;
+    }
+    .instagram {
+      .bi-instagram {
+        font-size: 1.5em;
+      }
+      .subtitleInstagram {
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 1em;
+      }
+    }
+    .cellFone {
+      .bi-telephone-fill {
+        font-size: 1.5em;
+      }
+      .subtitleCellFone {
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 1em;
+      }
+    }
+    .gitHub {
+      .bi-github {
+        font-size: 1.5em;
+      }
+      .subtitleGithub {
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 1em;
+      }
+    }
+  }
+  .credit {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: $font-family;
+    font-weight: 400;
+  }
+}
